@@ -1,0 +1,22 @@
+name: LastManStanding
+main: jp.hokyari.Main
+version: 1.0.0
+author: Genpyon
+api-version: 1.14
+commands:
+    ls:
+       description: LastManStanding no Command dayo
+       permission: LastManStanding.lc
+    mj:
+       description: LastManStanding no Command dayo
+       permission: LastManStanding.mj
+permissions:
+    LastManStanding.*:
+       description: LastManStanding no Command dayo
+       default: op
+    LastManStanding.ls:
+       description: LastManStanding no Command dayo
+       default: op
+    LastManStanding.mj:
+       description: LastManStanding no Command dayo
+       default: true
